@@ -1,0 +1,12 @@
+
+
+    <div class="container-fluid mt-3">
+        <h1>Categoria: <%= @blog.category.category %></h1>
+        <h3><%= @blog.title %><h3>
+
+        <p><%= @blog.content %></p>
+
+        <%= link_to "Editar", edit_blog_path(@blog.id), class: 'btn btn-primary'%>
+        <%= button_to "Borrar",blog_path(@blog.id), :method => :delete, :class => "delete", :confirm => "Are you sure ?", class: 'btn btn-danger'%>
+        <%= link_to "Regresar", blogs_path, class: 'btn btn-secondary' %>
+    </div>
