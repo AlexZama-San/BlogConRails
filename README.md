@@ -21,4 +21,10 @@ Things you may want to cover:
 
 * Deployment instructions
 
+SE AGREGARON LAS CATEGORIAS AL BLOG
+    PROXIMO EN AGREGAR{
+        LOGIN
+        COMMENTS
+    }
+
 * ...
